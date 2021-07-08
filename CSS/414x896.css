@@ -2,6 +2,7 @@
 
 #navigationbar ul li a{
     font-size: 0.66rem;
+    margin: 10px 2px;
 }
 
 /* Heading Styling */
@@ -47,6 +48,7 @@
 
 .detail{
     padding-bottom: 0px;
+    height: 145px;
 }
 
 #detailandbutton{
@@ -54,7 +56,7 @@
 }
 
 .detail h1{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 .description{
@@ -62,7 +64,7 @@
 }
 
 .description p{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 /* Button Styling */
