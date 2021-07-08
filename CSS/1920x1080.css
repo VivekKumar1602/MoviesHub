@@ -1,0 +1,43 @@
+/* Navbar */
+
+#navigationbar ul li a{
+    font-size: 1.55rem;
+}
+
+/* Heading */
+
+#home h1{
+    font-size: 5rem;
+}
+
+#home p{
+    font-size: 1.9rem;
+}
+
+#home::before{
+    height: 240px;
+}
+
+/* Content Styling */
+
+#container{
+    padding-top: 50px;
+    margin: 0px 60px;
+}
+
+.box{
+    grid-template-columns: 0.9fr 5fr 2.1fr;
+    grid-gap: 0rem;
+}
+
+.detail{
+    grid-template-rows: 0.65fr 2fr 0.5fr;
+}
+
+.detail h1{
+    font-size: 2.4rem;
+}
+
+.description p{
+    font-size: 1.5rem;
+}

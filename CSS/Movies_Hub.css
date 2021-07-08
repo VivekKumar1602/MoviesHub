@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(0 19 29);
+}
+
+/* Navbar Styling */
+
+#navigationbar ul{
+    display: flex;
+}
+
+#navigationbar ul li{
+    list-style: none;
+}
+
+#navigationbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4px 25px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#navigationbar ul li a:hover{
+    background-color: #58565685;
+}
+
+.active{
+    background-color: #0000006b;
+}
+
+/* Heading Styling */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: url(../Image/Headbg.jpg) no-repeat center center/cover;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.84;
+    border-bottom: 4.5px solid #b4dd2aed;
+}
+
+#home h1{
+    font-size: 3rem;
+    color: rgb(187 189 64);
+    margin: 3px;
+}
+
+#home p{
+    color: rgb(234 156 60);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Content Styling */
+
+#container{
+    padding-top: 75px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 360px);
+    grid-gap: 4.5rem;
+    margin: 0px 45px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 1rem;
+    padding: 30px;
+    border: 5px solid #5e5f5f;
+    border-radius: 15px;
+    position: relative;
+}
+
+.detail{
+    display: grid;
+    grid-template-rows: 1fr 2fr 0.5fr;
+    height: 245px;
+    padding: 14px 0px;
+}
+
+.box::before{
+    content: "";
+    background: url(../Image/boxbg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.78;
+}
+
+.image{
+    border: 3px solid #2f3333;
+    border-radius: 8px;
+    height: 265px;
+}
+
+.detail h1{
+    font-size: 2rem;
+    color: #c9faff;
+}
+
+.detail p{
+    font-size: 1.16rem;
+    color: #fdff80;
+}
+
+/* Button Styling */
+
+.btn{
+    padding: 4.5px 0px;
+    margin: 0px 8px;
+    color: white;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#download{
+    background-color: #2aa6cc;
+}
+
+#download a{
+    padding: 4.5px 10px;
+}
+
+#watch{
+    background-color: #dc3a28;
+}
+
+#watch a{
+    padding: 4.5px 10px;
+    text-decoration: none;
+}
+
+/* Trailer Video Styling */
+
+.trailer iframe{
+    height: 220px;
+    width: 400px;
+}
+
+.trailer p{
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+}

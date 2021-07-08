@@ -1,0 +1,92 @@
+/* Navbar Styling */
+
+#navigationbar ul li a{
+    font-size: 0.66rem;
+}
+
+/* Heading Styling */
+
+#home h1{
+    font-size: 2rem;
+}
+
+#home p{
+    font-size: 1rem;
+}
+
+#home::before{
+    height: 150px;
+}
+
+/* Content Styling */
+
+#container{
+    grid-template-rows: repeat(6,435px);
+    padding-top: 0px;
+    margin: 0px 14px;
+}
+
+.box{
+    grid-template-columns: none;
+    grid-template-areas: 
+    'image dandb '
+    'trailer trailer ';
+    grid-gap: 1rem 1rem;
+    margin-top: -10px;
+    padding: 12px;
+}
+
+.image{
+    height: 130px;
+    margin-top: 35px;
+}
+
+.img{
+    grid-area: image;
+}
+
+.detail{
+    padding-bottom: 0px;
+}
+
+#detailandbutton{
+    grid-area: dandb;
+}
+
+.detail h1{
+    font-size: 1.7rem;
+}
+
+.description{
+    margin: 8px 0px;
+}
+
+.description p{
+    font-size: 1.1rem;
+}
+
+/* Button Styling */
+
+#button{
+    margin: 15px 0px;
+}
+
+/* Trailer Video Styling */
+
+.trailer{
+    grid-area: trailer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer iframe{
+    height: 90px;
+    width: 165px;
+}
+
+.trailer p{
+    font-size: 1.15rem;
+    margin: 5px;
+}
